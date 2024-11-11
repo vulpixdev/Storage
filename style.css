@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    background-color: lightblue;
+}
+
+header{
+    height: 10vh;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 5%;
+    font-size: large;
+}
+
+header div{
+    background-color: lightblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#cadastro{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    height: 60vh;
+    width: 60%;
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+.form{
+    font-size: large;
+}
