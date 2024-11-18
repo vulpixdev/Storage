@@ -33,16 +33,6 @@ window.onload = function() {
     }
 }
 
-function mascaraEmail() {
-    var email = document.getElementById("email").value
-    if (email.indexOf('@') === -1) {
-        alert('Por favor, insira um e-mail válido com "@"');
-    }
-    if (email.indexOf('.') === -1) {
-        alert('Por favor, insira um e-mail válido com um domínio (ex: .com)');
-    }
-}
-
 function mascaraCpf() {
     var cpf_formatado = document.getElementById("cpf").value;
     if (cpf_formatado[3] != ".") {
