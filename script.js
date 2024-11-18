@@ -26,7 +26,7 @@ window.onload = function() {
 
     if (dados) {
         document.getElementById('exibeNome').textContent = dados.nome
-        document.getElementById('exibeEmail').textContent = dados.nome
+        document.getElementById('exibeEmail').textContent = dados.email
         document.getElementById('exibeCpf').textContent = dados.cpf
         document.getElementById('exibeTelefone').textContent = dados.telefone
         document.getElementById('exibeSenha').textContent = dados.senha
