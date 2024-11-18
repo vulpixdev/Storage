@@ -74,9 +74,9 @@ function mascaraTelefone() {
             document.getElementById("telefone").value = tel_formatado.slice(0, 6) + " " + tel_formatado[6]
         }
     }
-    if (tel_formatado[9] != "-") {
-        if (tel_formatado[9] != undefined) {
-            document.getElementById("telefone").value = tel_formatado.slice(0, 9) + "-" + tel_formatado[9]
+    if (tel_formatado[11] != "-") {
+        if (tel_formatado[11] != undefined) {
+            document.getElementById("telefone").value = tel_formatado.slice(0, 11) + "-" + tel_formatado[11]
         }
     }
 }
